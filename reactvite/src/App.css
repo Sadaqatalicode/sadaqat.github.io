@@ -1,0 +1,105 @@
+.skills{
+    width: 160px;
+    height: 160px;
+    /* background-color: aqua; */
+    position: relative;
+    margin-top: 10px;
+}
+
+.outer{
+    height: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 15),
+    -6px -6px 10px -1px rgba(225, 225, 225, 0.7)
+}
+
+.inner{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(225, 225, 225, 0.7),
+    -0.5px -0.5px 0px rgba(225, 225, 225, 1),
+    -0.5px -0.5px 0px rgba(225, 225, 225, 15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.5)
+}
+
+.number{
+    font-weight: 60px;
+    color: #555;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 165;
+    }
+}
+
+
+
+/* nav:hover {
+    background-color: aliceblue;
+}
+
+nav :hover ul li a{
+    background-color: aliceblue;
+} */
+
+/* .slide-right{
+    animation: slideright 1s linear forwards;
+}
+
+@keyframes slideright{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+p.slide-right{
+    animation-delay: 1s;
+}
+
+a.slide-right{
+    animation-delay: 2s;
+}
+
+.slide-up{
+    animation: slideup 1s linear forwards;
+}
+
+@keyframes slideup {
+    0%{
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+} */
+
